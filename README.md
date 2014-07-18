@@ -9,6 +9,7 @@ A lightweight subclass of UITableView with Expandable/Collapsable rows. Implemen
 
 ## Examples  
 This repo contains an example project optimized for iPhone to use as a template for testing purposes  
+
 ![alt tag](https://github.com/ajkoshy7/SubTable/blob/master/SubTable@2x.png)
 
 ## Usage  
@@ -23,7 +24,7 @@ Set your ViewController as it's delegate using:
 self.tableView setDataSourceDelegate:self];
 [self.tableView setTableViewDelegate:self];
 ```
-Set the following required delegate methods in your ViewController:
+Implement the following required delegate methods in your ViewController:
 ```objective-c
 - (NSInteger)numberOfParentCells;
 - (NSInteger)heightForParentRows;
