@@ -1,5 +1,5 @@
 # SubTable  
-A lightweight subclass of UITableView with Expandable/Collapsable rows. Implemented by inserting a cell below an expanded parent cell to act as a container. The container is adjusted to fit the height of the combined row heights of all child row heights in the nested table view. Both the parent row and child row heights can be adjusted to suit your needs.
+A lightweight subclass of UITableView with Expandable/Collapsible rows. Implemented by inserting a cell below an expanded parent cell to act as a container. The container is adjusted to fit the height of the combined row heights of all child row heights in the nested table view. Both the parent row and child row heights can be adjusted to suit your needs.
 
 ## Features  
 * A UITableView subclass implemented using a second, nested table view
