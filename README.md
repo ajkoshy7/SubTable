@@ -9,7 +9,6 @@ A lightweight subclass of UITableView with Expandable/Collapsable rows. Implemen
 
 ## Examples  
 This repo contains an example project optimized for iPhone to use as a template for testing purposes  
-* SubTableExample.xcodeproj
 ![alt tag](https://github.com/ajkoshy7/SubTable/blob/master/SubTable@2x.png)
 
 ## Usage  
