@@ -21,7 +21,7 @@ ParentTableView *tableView = [[ParentTableView alloc] init];
 Optionally, add a UITableView to your xib file and set its class to `ParentTableView`  
 Set your ViewController as it's delegate using:
 ```objective-c
-self.tableView setDataSourceDelegate:self];
+[self.tableView setDataSourceDelegate:self];
 [self.tableView setTableViewDelegate:self];
 ```
 Implement the following required delegate methods in your ViewController:
